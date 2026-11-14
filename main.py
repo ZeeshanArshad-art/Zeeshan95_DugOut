@@ -23,3 +23,21 @@ print("My Team: Code Strikers")
 
 for player in [babar, rizwan, fakhar, shadab, shaheen, haris]:
     print(player)
+
+class FantasyTeam:
+
+def __init__(self,team_name, owner):
+    self.team_name = team_name
+    self.owner = ownerslef.players = []
+    slef.captain = None
+    self.vice_captain = None
+
+    def add_player(self, player):
+        self.players.append(player)
+
+
+    def count_by_role(self):
+        counts = {"WK": 0, "BAT": 0, "AR"= 0, "BOWL":=0}
+for player in Self.player:
+      counts[player.role]= counts[player.role] + 1
+      return counts
